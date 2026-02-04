@@ -1,10 +1,10 @@
+@import url('https://fonts.google.com/specimen/Lato');
+
 .flex-container{
     display: flex;
     gap: 20px;
-    padding: 40px;
-    background-color: #e4e4e4;
+    background-color: #363535;
     min-height: 100vh;
-    align-items: middle;
 }
 
 .flex-item{
@@ -13,8 +13,7 @@
 }
 
 .border{
-    background-color: #e4e4e4; 
-    color: black;
+    background-color: #363535; 
     flex: 0.8;
 }
 
@@ -23,28 +22,103 @@
     background-color: #201f1f; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     flex: 2;
-    gap: 20px;
     flex-direction: column;
     border-radius: 10px;
 }
 
 .item-2 {
     display:flex;
-    background-color: #e4e4e4; 
+    background-color: #201f1f; 
     flex: 4;
     flex-direction: column;
     gap: 20px;
+    border-radius: 10px;
 }
 
 .item-1-children{
-    color: #49e5a2;
+    color: #5ce2af;
     flex: 1;
 }
 
 .item-2-children{
-    background-color: #ffffff; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: black;
-    flex: 1;
     border-radius: 10px;
+}
+
+.job {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #48DA9B;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 300;
+    color: #48DA9B;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 300;
+    color: #48DA9B;
+}
+
+p {
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #e4e3e8;
+}
+
+li {
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #e4e3e8;
+}
+
+.item-1-1 img {
+    width: 300px;
+    height: 300px;
+    border-left: 20px solid #837c9a;
+}
+
+.education-section {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.vertical-line {
+    width: 15px;
+    background-color: #48DA9B;
+}
+
+.projects, .subjects {
+    flex-wrap: wrap;
+    background-color: #201f1f;
+    margin-top: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.subject-children {
+    background-color: #363535;
+    flex: 1;
+}
+
+.project-children {
+    background-color: #363535;
+    width: 100%;
 }
