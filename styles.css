@@ -2,14 +2,13 @@
 
 .flex-container{
     display: flex;
-    gap: 20px;
+    gap: 20px; /*puts spaces in between the children*/
     background-color: #363535;
-    min-height: 100vh;
+    min-height: 100vh; /*makes the container at least the full height of the screen*/
 }
 
 .flex-item{
     padding: 20px;
-    box-sizing: border-box;
 }
 
 .border{
